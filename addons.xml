@@ -1,0 +1,15 @@
+<addons>
+  <addon id="script.module.horus"
+         name="Horus"
+         version="1.1.9"
+         provider-name="ard1ya">
+    <extension point="xbmc.python.module" />
+  </addon>
+
+  <addon id="script.module.resolveurl"
+         name="ResolveURL"
+         version="5.1.148"
+         provider-name="ard1ya">
+    <extension point="xbmc.python.module" />
+  </addon>
+</addons>
