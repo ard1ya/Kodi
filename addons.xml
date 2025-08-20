@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="script.module.horus" 
+           name="Horus" 
+           version="1.1.9" 
+           provider-name="Horus Team">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+        </requires>
+        <extension point="xbmc.python.module" library="lib"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Horus Module</summary>
+            <summary lang="es_ES">Módulo Horus</summary>
+            <description lang="en_GB">Horus script module for Kodi addons</description>
+            <description lang="es_ES">Módulo script Horus para addons de Kodi</description>
+            <platform>all</platform>
+            <language></language>
+            <license>GPL-2.0-only</license>
+            <forum></forum>
+            <website></website>
+            <source></source>
+            <disclaimer lang="en_GB">The authors are not responsible for the use of this addon.</disclaimer>
+            <disclaimer lang="es_ES">Los autores no se responsabilizan del uso de este addon.</disclaimer>
+        </extension>
+    </addon>
+    <addon id="script.module.resolveurl" 
+           name="ResolveURL" 
+           version="5.1.148" 
+           provider-name="gujal">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="plugin.video.youtube" optional="true"/>
+            <import addon="script.module.python.twitch" optional="true"/>
+        </requires>
+        <extension point="xbmc.python.module" library="lib"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+            <summary lang="es_ES">Resuelve URLs de hosts de video comunes para ser reproducibles en XBMC/Kodi.</summary>
+            <summary lang="he_IL">פתרון כתובות URL נפוצות של אתרי וידאו כדי שניתן יהיה לנגן אותן ב- XBMC/Kodi.</summary>
+            <description lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+            <description lang="es_ES">Resuelve URLs de hosts de video comunes para ser reproducibles en XBMC/Kodi, simplifica el desarrollo de addons de plugins de video que requieren múltiples hosts de video.</description>
+            <platform>all</platform>
+            <language></language>
+            <license>GPL-2.0-only</license>
+            <forum>https://forum.kodi.tv/showthread.php?tid=287442</forum>
+            <website>https://github.com/gujal00/ResolveURL</website>
+            <source>https://github.com/gujal00/ResolveURL</source>
+            <disclaimer lang="en_GB">This script only resolves video content from legitimate file lockers without prejudice. If this script is being used by 3rd parties to resolve content that you feel infringes upon your Intellectual Property then please take your complaints to the actual website or developer linking to such content and not us. This script in no way searches for any content whatsoever.</disclaimer>
+            <disclaimer lang="es_ES">Este script solo resuelve contenido de video de almacenes de archivos legítimos sin prejuicios. Si este script está siendo usado por terceros para resolver contenido que sientes que infringe tu Propiedad Intelectual, entonces por favor lleva tus quejas al sitio web real o desarrollador que enlaza a dicho contenido y no a nosotros. Este script de ninguna manera busca ningún contenido.</disclaimer>
+        </extension>
+    </addon>
+</addons>
